@@ -10,11 +10,11 @@ const router = createRouter({
 		},
 		{
 			path: '/keranjang',
-			component: () => import('../views/Keranjang.vue')
+			component: () => import('../views/keranjang.vue')
 		},
         {
             path: '/akun',
-            component: () => import('../views/Akun.vue')
+            component: () => import('../views/akun.vue')
         },
         {
             path: '/search',

@@ -33,7 +33,7 @@
                 <img src="https://cdn-icons-png.flaticon.com/512/4076/4076478.png" alt="No orders">
                 <h3>No orders found</h3>
                 <p>You haven't placed any orders yet</p>
-                <router-link to="/products" class="shop-btn">Start Shopping</router-link>
+                <router-link to="/produk" class="shop-btn">Start Shopping</router-link>
                 </div>
 
                 <div v-for="order in filteredOrders" :key="order.id" class="order-card">

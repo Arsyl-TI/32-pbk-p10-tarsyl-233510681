@@ -103,7 +103,7 @@ export default {
           this.loading = false;
           
           // Redirect after successful login
-          this.$router.push('/dashboard');
+          this.$router.push('/akun');
         }, 1500);
       }
     }

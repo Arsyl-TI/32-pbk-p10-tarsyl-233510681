@@ -478,7 +478,7 @@ export default {
 .range-slider {
   width: 100%;
   height: 6px;
-  -webkit-appearance: none;
+
   background: #d3d3d3;
   outline: none;
   border-radius: 3px;
@@ -611,7 +611,7 @@ export default {
   font-size: 13px;
   color: #7f8c8d;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+
   -webkit-box-orient: vertical;
   overflow: hidden;
   height: 36px;

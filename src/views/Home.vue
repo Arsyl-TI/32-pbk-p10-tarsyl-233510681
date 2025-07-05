@@ -1,12 +1,12 @@
 <template>
-	<main id="home">
+	<main id="Home">
 		<div class="home-page">
 			<!-- Hero Section -->
 			<section class="hero-section">
 			<div class="hero-content">
 				<h1>Welcome to Our Store</h1>
 				<p>Discover amazing products at unbeatable prices</p>
-				<router-link to="/products" class="shop-now-btn">Shop Now</router-link>
+				<router-link to="/produk" class="shop-now-btn">Shop Now</router-link>
 			</div>
 			<div class="hero-image">
 				<img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Shopping experience">
@@ -30,7 +30,7 @@
 			<section class="featured-products">
 			<div class="section-header">
 				<h2>Featured Products</h2>
-				<router-link to="/products" class="view-all">View All</router-link>
+				<router-link to="/produk" class="view-all">View All</router-link>
 			</div>
 			<div class="products-grid">
 				<div v-for="product in featuredProducts" :key="product.id" class="product-card">
@@ -70,7 +70,7 @@
 			<section class="popular-products">
 			<div class="section-header">
 				<h2>Popular This Week</h2>
-				<router-link to="/products" class="view-all">View All</router-link>
+				<router-link to="/produk" class="view-all">View All</router-link>
 			</div>
 			<div class="products-grid">
 				<div v-for="product in popularProducts" :key="product.id" class="product-card">

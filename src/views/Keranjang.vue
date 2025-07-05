@@ -1,5 +1,5 @@
 <template>
-	<main id="keranjang-page">
+	<main id="keranjang">
         <div class="cart-container">
         <div class="cart-header">
         <h1>Your Shopping Cart</h1>
@@ -47,7 +47,7 @@
             <img src="https://cdn-icons-png.flaticon.com/512/2038/2038854.png" alt="Empty cart" />
             <h3>Your cart is empty</h3>
             <p>Looks like you haven't added any items yet</p>
-            <router-link to="/products" class="shop-btn">Continue Shopping</router-link>
+            <router-link to="/produk" class="shop-btn">Continue Shopping</router-link>
         </div>
 
         <div class="cart-summary" v-if="cartItems.length > 0">
@@ -83,7 +83,7 @@
                 <span v-else class="spinner"></span>
             </button>
             
-            <router-link to="/products" class="continue-shopping">
+            <router-link to="/produk" class="continue-shopping">
                 Continue Shopping
             </router-link>
             </div>

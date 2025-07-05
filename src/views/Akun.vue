@@ -38,9 +38,9 @@ export default {
 </script>
 
 <template>
-	<main id="akun-page">
+	<main id="akun">
     <div class="profile-container">
-      <!-- ... bagian lainnya tetap sama ... -->
+
       
       <div class="profile-info">
         <div class="avatar">
