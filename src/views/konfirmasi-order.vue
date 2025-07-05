@@ -1,5 +1,5 @@
 <template>
-    <main id="konfirmasi-order">
+    <main id="konfirmasi-order-page">
         <div class="order-confirmation">
             <div class="confirmation-container">
             <!-- Order Confirmation Header -->

@@ -1,5 +1,5 @@
 <template>
-	<main id="Home">
+	<main id="Home-page">
 		<div class="home-page">
 			<!-- Hero Section -->
 			<section class="hero-section">

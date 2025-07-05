@@ -38,7 +38,7 @@ export default {
 </script>
 
 <template>
-	<main id="akun">
+	<main id="akun-page">
     <div class="profile-container">
 
       

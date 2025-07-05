@@ -1,5 +1,5 @@
 <template>
-	<main id="keranjang">
+	<main id="keranjang-page">
         <div class="cart-container">
         <div class="cart-header">
         <h1>Your Shopping Cart</h1>

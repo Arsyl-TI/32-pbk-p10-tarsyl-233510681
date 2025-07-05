@@ -1,5 +1,5 @@
 <template>
-	<main id="produk">
+	<main id="produk-page">
 		<div class="product-page">
 			<!-- Breadcrumb Navigation -->
 			<div class="breadcrumb">

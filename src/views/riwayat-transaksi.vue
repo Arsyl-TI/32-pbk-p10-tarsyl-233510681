@@ -1,5 +1,5 @@
 <template>
-    <main id="riwayat-transaksi">
+    <main id="riwayat-transaksi-page">
         <div class="orders-page">
             <div class="orders-container">
             <h1>Your Orders</h1>

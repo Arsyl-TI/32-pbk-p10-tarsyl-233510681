@@ -1,5 +1,5 @@
 <template>
-    <main id="search">
+    <main id="search-page">
         <div class="search-container">
             <div class="search-header">
             <div class="search-bar-container">

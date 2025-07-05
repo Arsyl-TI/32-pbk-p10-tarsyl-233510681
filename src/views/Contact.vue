@@ -1,5 +1,5 @@
 <template>
-  <main class="contact">
+  <main class="contact-page">
     <div class="contact-header">
       <h1>Get in Touch</h1>
       <p class="subtitle">Have questions or feedback? We're here to help.</p>

@@ -1,5 +1,5 @@
 <template>
-    <main id="settings">
+    <main id="settings-page">
         <h1>Settings</h1>
         
         <div class="settings-container">

@@ -121,7 +121,7 @@ export default {
 }
 </script>
 <template>
-    <main id="register">
+    <main id="register-page">
         <div class="register-container">
             <div class="register-card">
             <div class="register-header">
