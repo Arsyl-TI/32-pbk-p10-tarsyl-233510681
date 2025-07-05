@@ -17,10 +17,6 @@ const router = createRouter({
             component: () => import('../views/Akun.vue')
         },
         {
-            path: '/saldo',
-            component: () => import('../views/saldo.vue')
-        },
-        {
             path: '/search',
             component: () => import('../views/search.vue')
         },
