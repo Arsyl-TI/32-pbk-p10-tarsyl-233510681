@@ -16,11 +16,11 @@
 				<span class="material-icons">home</span>
 				<span class="text">Home</span>
 			</router-link>
-      <router-link to="/search" class="button">
+      		<router-link to="/search" class="button">
 				<span class="material-icons">search</span>
 				<span class="text">Pencarian</span>
 			</router-link>
-      <router-link to="/produk" class="button">
+      		<router-link to="/produk" class="button">
 				<span class="material-icons">shopping_bag</span>
 				<span class="text">produk</span>
 			</router-link>
