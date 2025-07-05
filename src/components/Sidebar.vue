@@ -12,7 +12,7 @@
 
 		<h3>Menu</h3>
 		<div class="menu">
-			<router-link to="/" class="button">
+			<router-link to="/" class="button"  @click="is_expanded = false">
 				<span class="material-icons">home</span>
 				<span class="text">Home</span>
 			</router-link>
@@ -20,21 +20,33 @@
 				<span class="material-icons">search</span>
 				<span class="text">Pencarian</span>
 			</router-link>
-      <router-link to="/menu" class="button">
-				<span class="material-icons">menu</span>
-				<span class="text">Menu</span>
+      <router-link to="/produk" class="button">
+				<span class="material-icons">shopping_bag</span>
+				<span class="text">produk</span>
 			</router-link>
 			<router-link to="/keranjang" class="button">
 				<span class="material-icons">shopping_cart</span>
 				<span class="text">Keranjang Belanja</span>
 			</router-link>
-			<router-link to="/saldo" class="button">
-				<span class="material-icons">wallet</span>
-				<span class="text">Saldo</span>
+			<router-link to="/riwayat-transaksi" class="button">
+				<span class="material-icons">history</span>
+				<span class="text">Transaksi</span>
 			</router-link>
 			<router-link to="/akun" class="button"> 
 				<span class="material-icons">account_circle</span>
 				<span class="text">Akun</span>
+			</router-link>
+			<router-link to="/login" class="button"> 
+				<span class="material-icons">login</span>
+				<span class="text">Login</span>
+			</router-link>
+			<router-link to="/register" class="button"> 
+				<span class="material-icons">add_box</span>
+				<span class="text">Register</span>
+			</router-link>
+			<router-link to="/contact" class="button"> 
+				<span class="material-icons">contacts</span>
+				<span class="text">Contact Us</span>
 			</router-link>
 		</div>
 
@@ -76,17 +88,17 @@ aside {
 
 	transition: 0.2s ease-in-out;
 
-	.flex {
-		flex: 1 1 0%;
-	}
+.flex {
+	flex: 1 1 0%;
+}
 
-	.logo {
-		margin-bottom: 1rem;
+.logo {
+	margin-bottom: 1rem;
 
-		img {
-			width: 2rem;
-		}
+	img {
+		width: 2rem;
 	}
+}
 
 	.menu-toggle-wrap {
 		display: flex;
@@ -176,35 +188,35 @@ aside {
 		}
 	}
 
-	&.is-expanded {
-		width: var(--sidebar-width);
+&.is-expanded {
+	width: var(--sidebar-width);
 
-		.menu-toggle-wrap {
-			top: -3rem;
+.menu-toggle-wrap {
+	top: -3rem;
 			
-			.menu-toggle {
-				transform: rotate(-180deg);
-			}
-		}
+.menu-toggle {
+	transform: rotate(-180deg);
+}
+}
 
-		h3, .button .text {
-			opacity: 1;
-		}
+h3, .button .text {
+	opacity: 1;
+}
 
-		.button {
-			.material-icons {
-				margin-right: 1rem;
-			}
-		}
-
-		.footer {
-			opacity: 0;
-		}
+.button {
+	.material-icons {
+		margin-right: 1rem;
 	}
+}
 
-	@media (max-width: 1024px) {
-		position: absolute;
-		z-index: 99;
-	}
+.footer {
+	opacity: 0;
+}
+}
+
+@media (max-width: 1024px) {
+	position: absolute;
+	z-index: 99;
+}
 }
 </style>

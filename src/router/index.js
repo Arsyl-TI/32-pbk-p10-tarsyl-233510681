@@ -10,7 +10,7 @@ const router = createRouter({
 		},
 		{
 			path: '/keranjang',
-			component: () => import('../views/keranjang.vue')
+			component: () => import('../views/Keranjang.vue')
 		},
         {
             path: '/akun',
@@ -25,8 +25,42 @@ const router = createRouter({
             component: () => import('../views/search.vue')
         },
         {
-            path: '/menu',
-            component: () => import('../views/menu.vue')
+            path: '/produk',
+            name: 'cart',
+            component: () => import('../views/produk.vue')
+        },
+        {
+            path: '/login',
+            component: () => import('../views/login.vue')
+        },
+        {
+            path: '/register',
+            component: () => import('../views/register.vue')
+        },
+        {
+            path: '/checkout',
+            name: 'checkout',
+            component: () => import('../views/checkout.vue')
+        },
+        {
+            path: '/konfirmasi-order',
+            name: 'konfirmasi-order',
+            component: () => import('../views/konfirmasi-order.vue')
+        },
+        {
+            path: '/riwayat-transaksi',
+            name: 'orders',
+            component: () => import('../views/riwayat-transaksi.vue')
+        },
+        {
+            path: '/settings',
+            name: 'setting',
+            component: () => import('../views/settings.vue')
+        },
+                {
+            path: '/contact',
+            name: 'contact',
+            component: () => import('../views/contact.vue')
         },
 	],
 })

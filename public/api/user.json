@@ -1,0 +1,8 @@
+{
+  "name": "John Doe",
+  "username": "johndoe123",
+  "email": "john.doe@example.com",
+  "description": "Frontend developer and Vue.js enthusiast. Love building interactive web applications.",
+  "balance": 1250000,
+  "avatar": "https://via.placeholder.com/150"
+}

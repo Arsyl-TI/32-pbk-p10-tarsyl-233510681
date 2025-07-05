@@ -1,0 +1,26 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "items": [
+        {
+          "id": 101,
+          "name": "Product A",
+          "price": 100000,
+          "quantity": 2
+        }
+      ],
+      "total": 200000,
+      "status": "completed",
+      "shipping": {
+        "address": "Jl. Contoh No. 123",
+        "city": "Jakarta"
+      },
+      "payment": {
+        "method": "credit_card",
+        "amount": 200000
+      },
+      "createdAt": "2023-06-01T10:30:00Z"
+    }
+  ]
+}
